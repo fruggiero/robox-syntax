@@ -1,4 +1,5 @@
 Copyright (c) 2016 GitHub Inc.
+
 Copyright (c) 2016 Federico Ruggiero
 
 Permission is hereby granted, free of charge, to any person obtaining
