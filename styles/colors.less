@@ -1,0 +1,40 @@
+// Config -----------------------------------
+@syntax-hue:          230;
+@syntax-saturation:    1%;
+@syntax-brightness:   98%;
+
+
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue, 8%, 24%);
+@mono-2: hsl(@syntax-hue, 6%, 44%);
+@mono-3: @robox_green;//hsl(@syntax-hue, 4%, 64%);
+
+// Colors -----------------------------------
+@hue-1:   @robox_red;//hsl(198, 99%, 37%); // <-cyan
+@hue-2:   hsl(221, 87%, 60%); // <-blue
+@hue-3:   @robox_orange;//hsl(301, 63%, 40%); // <-purple
+@hue-4:   @robox_pink;//hsl(119, 34%, 47%); // <-green
+
+@hue-5:   @robox_blue;//hsl(  5, 74%, 59%); // <-red 1
+@hue-5-2: hsl(344, 84%, 43%); // <-red 2
+
+@hue-6:   @robox_text_color;//hsl(301, 63%, 40%); // <-purple  hsl(41, 99%, 30%); // <-orange 1
+@hue-6-2: hsl(301, 63%, 48%); // <-purple2 hsl(41, 99%, 38%); // <-orange 2
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-bg, 36%);
+@syntax-guide:  fade(@syntax-fg, 20%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66% );
+
+//Da robox
+@robox_blue: #003AE0;
+@robox_orange: #FFB13A;
+@robox_pink: #FF00FF;
+@robox_cyan : #00ADAD;
+@robox_op_blue : #003AC2;
+@robox_green: #90C266;
+@robox_red: #D50000;
+@robox_text_color: #000000;

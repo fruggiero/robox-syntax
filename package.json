@@ -1,0 +1,17 @@
+{
+  "name": "robox-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A syntax theme that reflect Robox Development Environment (RDE)",
+  "keywords": [
+    "theme",
+    "robox",
+    "light",
+    "syntax"
+  ],
+  "repository": "https://github.com/fruggiero/robox-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}
