@@ -1,6 +1,5 @@
-Copyright (c) 2016 GitHub Inc.
-
-Copyright (c) 2016 Federico Ruggiero
+Copyright (c) 2016 Federico Ruggiero  
+This project is based on [one-light-syntax](https://github.com/atom/one-light-syntax) from GitHub Inc. Copyright (c) 2016
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
